@@ -1,0 +1,46 @@
+.dokme1{
+  @include dokme;
+  left: 46%;
+}
+.dokme2 {
+  @include dokme;
+  
+}
+.dokme3 {
+  @include dokme ;
+}
+.dokme4{
+  @include dokme;
+  left: 40%;
+ 
+}
+.border {
+  position: absolute;
+  border: 1px solid $color-white;
+  background-color: $color-white;
+  height: 250px;
+  flex-direction: column;
+  
+}
+.card1 {
+  width: 585px;
+}
+.card2 {
+  position: absolute;
+  width: 585px;
+  height: 500px;
+  top: 1px;
+  left: 585px;
+}
+.story-border{
+  top: 40px;
+  left: 50px;
+  position: absolute;
+  color: $color-white;
+  border: 1px solid $color-pink;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $color-pink;
+  border-radius: 100px;
+  padding: 10px;
+}
